@@ -1,0 +1,12 @@
+step-1
+install package [npm i gh-pages]
+
+
+step-2
+add below in side script
+      "predeploy": "npm run build"
+      "deploy": "gh-pages -d build"
+
+
+step-3
+"homepage": "https://dsraj190.github.io/deploy-git-project/"
